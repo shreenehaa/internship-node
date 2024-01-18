@@ -27,8 +27,15 @@ console.log(z1, z2);
 // object destructuring
 
 // const
-const { name, power } = {
-  name: "tony",
-  power: 100,
+const student = {
+  name1: "Shree",
+  dept: "IT",
+  branch: "B.tech",
 };
-console.log(power);
+const { name1, dept, branch } = student;
+console.log(name1, branch);
+// const { name, power } = {
+//   name: "tony",
+//   power: 100,
+// };
+// console.log(power);

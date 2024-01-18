@@ -30,3 +30,10 @@ this concept is called is holes
 - rest operators
 - becz it collects all the all value while destructuring
 - it should come only at last
+
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
+
+    H ~2 ~O
