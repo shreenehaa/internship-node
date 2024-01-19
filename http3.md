@@ -55,3 +55,27 @@ generally streams are identified by stream id,odd id for client initialted strea
 so whenever a packet is lost ,that particular stream will be retransmitted because other streams flow independently.
 
 They have built in multiplexing
+
+# Parameter vs Arguments
+
+## Parameter
+
+The variables that are defined when the function is declared are known as a parameter
+
+These are also known as formal parameters
+
+```
+function add(x, y){
+	return x + y
+}
+```
+
+## Arguments
+
+The values that are declared within a function when the function is called are known as an argument.
+
+Tt is also known as Actual arguments
+
+```
+add(2, 3)
+```
