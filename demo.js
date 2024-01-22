@@ -39,3 +39,55 @@ console.log(name1, branch);
 //   power: 100,
 // };
 // console.log(power);
+
+// IIFE
+
+(function (n) {
+  console.log("helo");
+  console.log(n * 10);
+})(10);
+
+((n) => {
+  console.log("arrow");
+  console.log(n * 10);
+})(2);
+
+// for
+
+var salary = {
+  john: 200,
+  pete: 250,
+  dev: 300,
+};
+
+for (var key in salary) {
+  // console.log(key);
+}
+
+// for (var key in salary) {
+//   console.log(Object.values(salary));
+//   console.log(Object.keys(salary));
+// }
+
+// Array methods
+
+// cart.reverse();
+
+const person = {
+  name: {
+    fist: "shree",
+    last: "nehaa",
+  },
+  age: 28,
+  place: {
+    city: "salem",
+  },
+};
+// console.log(person.place.city); cannot read the prop of undefined
+// defensive code
+if (person.place && person.place.city) {
+  console.log(person.place.city);
+}
+
+//optional chaining
+console.log(person?.place?.city);

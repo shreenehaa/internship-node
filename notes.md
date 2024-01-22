@@ -37,3 +37,11 @@ this concept is called is holes
 | Paragraph | Text        |
 
     H ~2 ~O
+
+# Five pillars of code
+
+- redability
+- maintanability
+- extensable
+- testability
+- performance
