@@ -46,3 +46,5 @@ getUserSubscriptionInfo = (user) => {
 
   return { plan, status };
 };
+
+// ADDED SOME CODE FOR COUPEN
