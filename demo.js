@@ -91,3 +91,12 @@ if (person.place && person.place.city) {
 
 //optional chaining
 console.log(person?.place?.city);
+
+// for each
+function sum(...arr) {
+  console.log(arr);
+  let sum = 0;
+  nums.forEach((num) => (sum += num));
+  return ans;
+}
+console.log(sum(1, 2, 3, 4));
