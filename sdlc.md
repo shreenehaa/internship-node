@@ -60,3 +60,25 @@ backlog(plan)->in progress(design)->peer review(test)->done.
 ring release-developers maintain seperate code for 10k dev branch and master branch for 10m people
 
 feature branch->developer branch->master branch;
+
+```
+git fetch --a
+
+git branch -D branch_name
+
+git log --graph
+
+git merge f2   ->(go to f1 and give this command so f1 will have the extra code of f2)
+
+git remote show origin
+
+```
+
+staging(testing team will test)
+
+```
+git rebase -i
+how to edit commit
+what is the use of fork
+
+```
