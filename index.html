@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-   <h1>hello 😂</h1> 
-   <script>
-    // console.log(5+5);
-    
-   </script>
-   <!-- <script src="demo.js"></script> -->
-   <script src="week1.js"></script>
-</body>
+    <script>
+      const arr = ["red", "green", "blue", "purple"];
+      var ans;
+      var i = 0;
+      const slideShow = (arr) => {
+        ans = setInterval(() => {
+          document.body.style.background = arr[i];
+          console.log(arr[i], i);
+          i++;
+
+          if (i >= arr.length) {
+            i = 0;
+          }
+        }, 2000);
+      };
+      const start = () => {
+        slideShow(arr);
+      };
+      const stop = () => {
+        i = 0;
+        clearInterval(ans);
+      };
+      const pause = () => {
+        stop();
+        // document.body.style.background = arr[i];
+      };
+    </script>
+  </head>
+  <body>
+    <h1>hello 😂</h1>
+    <button onclick="start(arr)">start</button>
+    <button onclick="stop()">stop</button>
+    <button onclick="pause()">pause</button>
+
+    <script src="async.js"></script>
+  </body>
 </html>

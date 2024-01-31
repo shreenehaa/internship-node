@@ -82,3 +82,38 @@ how to edit commit
 what is the use of fork
 
 ```
+
+git checkout -b branch name
+
+git checkout -m "commit msg"
+
+git add . --->to stage
+
+git checkout - ---->back to feature branch
+
+git rebase master (rebase on feature branch with master )
+
+git merge feature (fast forward statergy)
+
+delete
+git reset --soft HEAD~1(IT WILL BE IN STAGGED)
+
+git revert commit_id (it will create one commit as commit deteted)
+
+to delete middle commit
+
+git rebase -i HEAD~3 (LIKE LINKED LIST GO TO 3rd commit)
+
+p->pick,r->rewok,e->edit,d->drop
+
+# VIM
+
+# 3 modes
+
+- normal mode(esc)
+- insert mode(i)
+- command mode(:)->>>(:wq)w for write and q for quit
+
+cw-change word,u-undo
+
+git rebase continue
