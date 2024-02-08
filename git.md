@@ -93,3 +93,6 @@ git merge feature (fast forward statergy)
 cw-change word,u-undo
 
 git rebase continue
+
+- git stash (undo changes)
+- git stash apply

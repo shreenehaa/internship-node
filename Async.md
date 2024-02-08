@@ -23,3 +23,5 @@ each process has process id
 
 event loop -will check the stack if it is empty on it will take timeout from queue.
 should reduce the synchronous code
+
+- setTimeout is window object

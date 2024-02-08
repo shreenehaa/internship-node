@@ -37,3 +37,10 @@ JSON.Parse(JSON.stringify(data));
 ```
 spread operator-one level copy
 ```
+
+## Serialization vs deserialization
+
+- serialization
+  - conveting into json
+- deserialization
+  - json to other(like dictionary in python,object in javascript)
